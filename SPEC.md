@@ -27,7 +27,7 @@ Results are from the **player’s perspective**. `determine_winner(player, compu
 
 ### Agreed plan
 
-Before implementation, predict one matchup and explain it with your local coding agent. Discuss a short plan and checks. Once it makes sense, ask the agent to replace this paragraph with the agreed plan, preserving the expected results above. Continue in the same chat.
+ Agreed plan: implement one independent round using the supplied interface and server. `determine_winner(player, computer)` will return `win`, `lose`, or `tie` for lowercase `rock`, `paper`, and `scissors`; the page will display both choices and the result, with no score or saved history. Test all nine literal matchups, including the valid loss `rock` versus `paper` and the valid win `paper` versus `rock`. Reject any player input other than `rock`, `paper`, or `scissors` (for example, `lizard` or an empty value) with the supplied HTTP 400 behavior. Add one real integration round and one real browser round with replay, fixing only the computer choice in tests.
 
 ### Checks
 
