@@ -45,6 +45,6 @@ Use `unit`, `integration`, and `e2e` pytest markers. Run `.venv/bin/python check
 ### Work record
 
 - Issue: https://github.com/dhruvi0805/my-rps/issues/1
-- Pull request / CI: add actual URLs when they exist.
+- Pull request / CI: [PR #2](https://github.com/dhruvi0805/my-rps/pull/2); [Python checks](https://github.com/dhruvi0805/my-rps/actions/runs/41127522985).
 - Implementation: [game.py](./game.py), [tests/test_game.py](./tests/test_game.py), and [tests/e2e/test_round.py](./tests/e2e/test_round.py) implement and verify RPS-001.
 - Checks: Full `.venv/bin/python check.py` passed, including formatting, code analysis, non-browser tests, and Chromium browser checks. Browser observation: player chose Rock, computer chose Scissors, and the page displayed a win; this matches the rules because Rock beats Scissors.
